@@ -1,31 +1,7 @@
-# Structure Sensitive and Semantic Alignment Synergistic Enhancement  Network for Remote Sensing Change Detection
-This repository contains a simple Python implementation of our paper S2ENet.
+# Multi-Level Fusion Network Based on Mix Hybrid Attention for Hyperspectral and LiDAR Image Classification
+This repository contains a simple Python implementation of our paper MFNet.
 
 ## Overview
-![](https://github.com/ahaha-16/S2ENet/blob/main/S2ENet.png)
+![]([https://github.com/ahaha-16/S2ENet/blob/main/S2ENet.png](https://github.com/zqlzqlzqlzql/MFNet/blob/main/%E7%BB%98%E5%9B%BE1.png)
 
-## Dataset Preparation
-Download datasets [SYSU-CD](https://github.com/liumency/SYSU-CD), CLCD, [WHU-CD](http://gpcv.whu.edu.cn/data/building_dataset.html), and [LEVIR-CD](https://justchenhao.github.io/LEVIR/)
-
-Prepare datasets into the following structure and set their path in train.py and test.py
-
-    
-    ├── Train
-        ├── A        ...jpg/png
-        ├── B        ...jpg/png
-        ├── label    ...jpg/png
-        └── list     ...txt
-     
-    ├── Val
-        ├── A
-        ├── B
-        ├── label
-        └── list
-     
-    ├── Test
-        ├── A
-        ├── B
-        ├── label
-        └── list
-        
 
